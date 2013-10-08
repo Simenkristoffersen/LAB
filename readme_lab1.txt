@@ -1,18 +1,14 @@
-0. Javascript gjør slik at siden blir dynamisk.
+0. Javascript gjør at det er mulig å legge inn dynamiske funskjoner på nettsiden. 
+
+1. ID bruker vi når vi kun skal style et enkelt element i vår HTML kode. Dette er definert med "#". Class bruker vi da vi skal ha flere elementer som vi vil style samtidig. Class er definert med "."
+
+2. Det som er veldig bra med en dropdown liste er at, brukeren slipper å se alle listeelementene hele tiden. En dropdown liste vil også la han kunne selektere en ting, noe han ikke kan på en <ul> liste.
+
+3. Wikipedia har løst dette problemet på en veldig bra og oversiktelig måte, spesielt da de gjorde det i alfabetisk rekkefølge. Her har de brukt <ul> tag og stylet med css for å få listene vedsiden av hverandre. Da blir listene bredere, og ikke lengere. 
 
 
-1. Class er det mulig å bruke i fler paragrafer, men ID er kun mulig å bruke i et element. 
+4. <div> kan vi bruke i for eksempel headere. Denne taggen er et blokk element, de skiller ting. Definerer en seksjon i HTML dokumentet ditt. 
 
+<span> taggen vil ikke kunne skille ting. Dette er et inline-element. Ved hjelp av inline css kan vi endre på tekster, vi pakker inn en del av teksten og endrer den som vi vil. 
 
-2. I versjon en av siden er de forskjellige språkene listet nedover, med forskjellige farger. Dette kan virke litt uoversiktelig for noen. I versjon to har jeg satt inn en dropdown meny hvor folk kan scrolle ned, og finne det de ønsker.
-
-
-3. Mye av samme koding, enkel og greit. Listet elementene nedover. Greit få minsket repitisjonen av data.
-
-
-4. Div er et blokk element, det blir et skille mellom div elementet og andre elementer. 
-
-Span får ikke skille mellom seg og andre elemnter. Div kan vi bruke på headere og span kan brukes for å formatere tekst. 
-
-
-5. Ingen store problemer, bortsett fra at listen kan bli alt for lang. Det kan fort gjøre det rotete, og irriterende for brukeren at han ikke finner frem fort nok. Evt kunne man laget en søkeseksjon. 
+5. Et problem er at denne listen kan bli for lang for brukeren, og han vil ikke bruke tid på å bla nedover menyen. Slik som wikipedia gjorde det var en veldig god løsning, veldig ryddig og oversiktelig. Som en alternativ løsning ville jeg gjort som wikipedia, eller laget en egen søkeseksjon på siden. Der kunne brukeren skrevet inn for eksempel "J" og fått opp eksempler. 
